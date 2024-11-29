@@ -1,0 +1,191 @@
+.Portfolio{
+    width: 1,440px;
+    height: 1,119.08px;
+    padding: 97px 71px 97px 71px;
+    gap: 48px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Portfolio-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1,298px;
+    height: 150px;
+}
+
+.Portfolio-head h1{
+    width: 643px;
+    height: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.Portfolio-head button{
+    width: 146px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    border-radius: 60px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: white;
+    background-color: rgb(133, 58, 252);
+}
+
+.Portfolio-body{
+    width: 1,290px;
+    height: 727.08px;
+    gap: 48px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Portfolio-frame1{
+    width: 1,290px;
+    height: 434.08px;
+    gap: 48px;
+    opacity: 0px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Portfolio-frame1-box{
+    width: 1,290px;
+    height: 371px;
+    opacity: 0px;
+    /* background-color: brown; */
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.Portfolio-card{
+    width: 633px;
+    height: 371px;
+    padding: 0px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: black;
+}
+
+.Portfolio-frame1-dots{
+    width: 139.5px;
+    height: 15.08px;
+    gap: 11.31px;
+    opacity: 0px;
+    border-radius: 10px;
+    background-color: rgb(133, 58, 252);
+}
+
+.Portfolio-frame2{
+    width: 947px;
+    height: 54px;
+    gap: 14px;
+    opacity: 0px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Portfolio-skills{
+    background-color: rgb(242, 244, 247);
+    width: Hug (193px)px;
+    height: Hug (54px)px;
+    padding: 15px 32px 15px 32px;
+    gap: 10px;
+    border-radius: 24px;
+    opacity: 0px;
+}
+
+.Portfolio-skills span{
+    width: 129px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color: rgb(52, 64, 84);
+}
+
+.Portfolio-frame3{
+    width: 762px;
+    height: 143px;
+    gap: 24px;
+    opacity: 0px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+
+.frame3-text1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Portfolio-link{
+    width: 58px;
+    height: 58px;
+    gap: 10px;
+    border-radius: 60px;
+    border: 2px;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 3px;
+    opacity: 0px;
+    background-color: rgb(133, 58, 252)
+}
+
+.frame3-text1 span{
+    width: 686px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgb(52, 64, 84);
+}
+
+.frame3-text2{
+    width: 742px;
+    height: 61px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: rgb(52, 64, 84);
+}

@@ -1,0 +1,10 @@
+.testimonials{
+    width: 1,440px;
+    height: auto;
+    gap: 96px;
+    border-radius: 50px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

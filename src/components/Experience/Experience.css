@@ -1,0 +1,86 @@
+.experienceThree{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.experienceThree .heading-exp{
+    color: rgb(52, 64, 84);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+
+.text-exp{
+    color: black;
+    text-align: left;
+    width: 508px;
+}
+
+.text-exp .upper, .lower{
+    font-size: 20px;
+}
+
+.text-exp .upper{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.text-exp .lower{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgb(152, 162, 179);
+}
+
+.container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 102px;
+    width: 1400px;
+    height: 438px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.container .side-text-exp{
+    width: 600px;
+    height: 338px;
+    gap: 60px;
+}
+
+.container .side-text-exp .text-exp .upper{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    color: rgb(52, 64, 84);
+    margin-bottom: 10px;
+}
+
+.container .side-text-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dotDesign img{
+    width: auto;
+    height: 400px;
+}

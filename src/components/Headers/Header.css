@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    padding-top: 150px;
+}
+
+h1{
+    font-family: Urbanist;
+}
+
+.header{
+    margin-top: 30px;
+    color: black;
+    z-index: 0;
+}
+
+.header .main-Text button{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.header .main-Text .highlight{
+    color: var(--color-dark2);
+}
+
+.header .main-Text span{
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 95.57px;
+    line-height: 95.57px;
+}
+
+.DesignOne{
+    width: 27.5px;
+    height: 28.5px;
+    left: 492.75px;
+    gap: 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    z-index: 1;
+    top: -65px;
+    left: +60px;
+}
+
+.DesignTwo{
+    width: 75px;
+    height: 85px;
+    gap: 0px;
+    border: 0px 0px 0px 0px;
+    opacity: 0px;
+    angle: 167.61 deg;
+    position: relative;
+    left: -390px;
+    top: -25px;
+    z-index: 1;
+}
+
+.QuoteUp{
+    width: auto;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.sub-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+.sub-text .experience .text .years{
+    font-family: Urbanist;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+.sub-text .experience .text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+.sub-text .profile{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+}
+
+.ellips{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+}
+
+.ellips-png{
+    width: 811.78px;
+    height: 405.89px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: -2;
+}
+
+.ellips .luffy{
+    width: auto;
+    height: 680px;
+    position: absolute;
+    bottom: 60px;
+    z-index: -1;
+}
+
+.ellips .portfolio-header{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    border: 1px solid white;
+    padding: 10px 30px 10px 10px ;
+    border-radius: 50px;
+    justify-content: flex-end;
+    gap: 40px;
+    bottom: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    /*   background-color: rgb(180, 153, 255); */
+    box-shadow: -5px 5px 0px -1px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -5px 5px 0px -1px rgba(255,255,255,0.75);
+    -moz-box-shadow: -5px 5px 0px -1px rgba(255,255,255,0.75);
+}
+
+.ellips .portfolio-header button{
+    padding: 10px 10px 10px 10px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 31.09px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 0px 8px #000000;
+    transition: text-shadow 0.5s ease;
+}
+
+.ellips .portfolio-header button:hover{
+    text-shadow: 0 0 30px rgb(69,21,42),
+    0 0 8px #ffffff,
+    0 0 16px #ff00ff;
+    cursor: pointer;
+}
+
+.ellips .portfolio-header h1{
+    padding: 0px 40px 10px 40px;
+    border: 0px solid white;
+    border-radius:  50px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    background-color: rgb(133, 58, 252);
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+
+
+.ellips .portfolio-header h1 .arrow-icon{
+    rotate: 140deg;
+    width: auto;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: -15px;
+}
+
+
+

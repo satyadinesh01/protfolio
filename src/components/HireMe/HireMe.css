@@ -1,0 +1,134 @@
+.HireMe{
+    width: 1,440px;
+    height: 806px;
+    padding: 122px 71px 122px 71px;
+    gap: 96px;
+    border-radius: 50px 0px 0px 0px;
+    opacity: 0px;
+    background-color:#F2F4F7;
+    ;
+}
+
+.HireMe .HireMe-container{
+    width: 1,299px;
+    height: 600px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HireMe .HireMe-container .HireMe-image{
+    width: 603px;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HireMe .HireMe-container .HireMe-image img{
+    width: auto;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.HireMe .HireMe-container .HireMe-content{
+    width: 696px;
+    height: 460px;
+    gap: 47px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-Heading{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgb(52, 64, 84);
+}
+
+.HireMe .HireMe-container .HireMe-content .hireMe-text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #98A2B3;
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-Project{
+
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-Project .HireMe-Projects{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.57px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgb(29, 41, 56);
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-Project .HireMe-ProCompleted{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: rgb(102, 112, 133);
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-button{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-button .HimeMe-btn{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    letter-spacing: -0.015em;
+    width: 236px;
+    height: 105px;
+    padding: 33px 59px 33px 59px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid black;
+    opacity: 0px;
+    text-wrap: wrap;
+}
+
+.HireMe .HireMe-container .HireMe-content .HireMe-button .HireMe-resume{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    letter-spacing: -0.015em;
+    width: 236px;
+    height: 105px;
+    padding: 33px 59px 33px 59px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid black;
+    opacity: 0px;
+    text-wrap: wrap;
+    background-color: rgb(51, 51, 51);
+}
